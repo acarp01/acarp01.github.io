@@ -1,0 +1,53 @@
+body {
+  background: url(http://trickvilla.com/wp-content/uploads/Wood-Backgrounds.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section {
+    background: url(http://img208.imageshack.us/img208/6774/x1zb.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:relative;
+    margin:auto;
+    margin-bottom:200px;
+    margin-top:80px;
+    width:750px;
+    height:500px;
+    border-radius:10px;
+    float:none;
+}
+
+table {
+    position:absolute;
+    margin-top:35px;
+    margin-left:3.5%;
+    /*margin-right:10%;*/
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width:700px;
+    height:400px;
+}
+
+th {
+    height:50px;
+    
+}
+
+#top_left {
+    text-align:center;
+}
+
+tr > td:first-child {
+    text-align: center;
+    width: 20%;
+}
+
+tr > td:nth-child(2) {
+    height:50px;
+}
